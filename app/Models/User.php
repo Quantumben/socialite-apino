@@ -21,6 +21,10 @@ class User extends Authenticatable
         'name',
         'email',
         'password',
+        'apple_id',
+        'google_id',
+        'facebook_id',
+        'avatar', // Optional: store user profile pictures
     ];
 
     /**
